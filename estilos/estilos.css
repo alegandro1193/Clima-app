@@ -68,6 +68,61 @@ header{
 }
 
 header h2{
+	margin-top: 50px;
     color: azure;
     font-size: 40px;
+}
+#menu_clima{
+	margin-top: 100px;
+}
+
+#menu_clima ul {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+#menu_clima button{
+	background-color:rgb(73, 107, 202);
+	border: none;
+    border-radius: 8px;
+	width: 190px;
+	color: azure;
+	
+}
+
+#clima{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	color: azure;
+    font-size: 40px;
+
+}
+#clima div{
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+#clima img{
+	width: 100px;
+
+}
+
+.fecha{
+	font-size: 20px;
+}
+
+#datos{
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+#datos p {
+	display: flex;
+	justify-content: center;
+	color: azure;
+	font-size: 30px;
 }

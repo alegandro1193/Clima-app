@@ -125,17 +125,21 @@ function AnalisisClima(lat,lon){
     
             }
 
-            Fecha_galicia.innerHTML= `<p> Temperaturas de Galicia hoy `+fechaFormateada+`</p>`
+           
             
-            clima.innerHTML=`<h2>`+name+ `</h2>
-                            <p>`+ Math.round(temperatura)+` ºC</p>
-                    <img src="`+imgURL+`" alt="">
+            clima.innerHTML=`
+                            <div>
+                            <p>` +name+" "+ Math.round(temperatura)+` ºC</p>
+                            <p class="fecha">`+fechaFormateada+`</p>
+                            </div>
+                            <img src="`+imgURL+`" alt="">
                     `
 
-            datos.innerHTML = `<p> sensacion Termica `+ Math.round(sensacionTermica)+` ºC</p> 
-                                <p> humedad `+ Math.round(humidity)+`%</p>
-                                <p> temperatura maxima `+ Math.round(temperaturaMax)+`</p>
-                                <p> temperatura minima `+ Math.round(temperaturaMin)+`</p>
+            datos.innerHTML = `
+                                <p> sensacion Termica: `+ Math.round(sensacionTermica)+` ºC</p> 
+                                <p> humedad: `+ Math.round(humidity)+`%</p>
+                                <p> temperatura maxima: `+ Math.round(temperaturaMax)+`</p>
+                                <p> temperatura minima: `+ Math.round(temperaturaMin)+`</p>
                                 <p> Vientos `+vientos+` km/h </p>`
                     
     })
