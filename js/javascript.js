@@ -4,7 +4,7 @@
 
 function AnalisisClima(lat,lon){
     
-    const apiKey = "f649b9c0d1e36378b21ad6d58267c653";
+    const apiKey = ENV.API_KEY;
     
     const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=f649b9c0d1e36378b21ad6d58267c653&units=metric`;
     
