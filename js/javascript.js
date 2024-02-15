@@ -52,75 +52,75 @@ function AnalisisClima(lat,lon){
             switch (weather) {
 
                 case '01d':
-                    imgURL = 'iconos/01d.png';
+                    imgURL = 'assets/iconos/01d.png';
                 break;
     
                 case '01n':
-                    imgURL = 'iconos/01n.png';
+                    imgURL = 'assets/iconos/01n.png';
                 break;
     
                 case '02d':
-                    imgURL = 'iconos/02d.png';
+                    imgURL = 'assets/iconos/02d.png';
                 break;
     
                 case '02n':
-                    imgURL = 'iconos/02n.png';
+                    imgURL = 'assets/iconos/02n.png';
                 break;
     
                 case '03d':
-                    imgURL = 'iconos/03d.png';
+                    imgURL = 'assets/iconos/03d.png';
                 break;
     
                 case '03n':
-                    imgURL = 'iconos/03n.png';
+                    imgURL = 'assets/iconos/03n.png';
                 break;
     
                 case '04d':
-                    imgURL = 'iconos/04d.png';
+                    imgURL = 'assets/iconos/04d.png';
                 break;
     
                 case '04n':
-                    imgURL = 'iconos/04n.png';
+                    imgURL = 'assets/iconos/04n.png';
                 break;
     
                 case '09d':
-                    imgURL = 'iconos/09d.png';
+                    imgURL = 'assets/iconos/09d.png';
                 break;
     
                 case '09n':
-                    imgURL = 'iconos/09n.png';
+                    imgURL = 'assets/iconos/09n.png';
                 break;
     
                 case '10d':
-                    imgURL = 'iconos/10d.png';
+                    imgURL = 'assets/iconos/10d.png';
                 break;
     
                 case '10n':
-                    imgURL = 'iconos/10n.png';
+                    imgURL = 'assets/iconos/10n.png';
                 break;
     
                 case '11d':
-                    imgURL = 'iconos/11d.png';
+                    imgURL = 'assets/iconos/11d.png';
                 break;
     
                 case '11n':
-                    imgURL = 'iconos/11n.png';
+                    imgURL = 'assets/iconos/11n.png';
                 break;
     
                 case '13d':
-                    imgURL = 'iconos/13d.png';
+                    imgURL = 'assets/iconos/13d.png';
                 break;
     
                 case '13n':
-                    imgURL = 'iconos/13n.png';
+                    imgURL = 'assets/iconos/13n.png';
                 break;
     
                 case '50d':
-                    imgURL = 'iconos/50d.png';
+                    imgURL = 'assets/iconos/50d.png';
                 break;
     
                 case '50n':
-                    imgURL = 'iconos/50n.png';
+                    imgURL = 'assets/iconos/50n.png';
                 break;
     
             }

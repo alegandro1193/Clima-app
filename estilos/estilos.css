@@ -58,7 +58,7 @@ table {
 }
 
 body{
-    background: radial-gradient(  rgb(136, 226, 254), rgb(61, 110, 243)) no-repeat;
+    background: radial-gradient(  rgb(136, 226, 254), #3d6ef3) no-repeat;
     height: 100vh;
 }
 
